@@ -4,7 +4,7 @@ env:
   kernel_repository: LineageOS/android_kernel_google_msm-4.9
   kernel_branch: lineage-21
   device: crosshatch
-  clang_version: r487747c
+  clang_version: r365631c
   defconfig: |
     sdm845-perf_defconfig
   kernel_patch: |
