@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: PixelExperience-Devices/kernel_xiaomi_polaris
-  kernel_branch: thirteen
-  device: dipper
+  kernel_repository: LineageOS/android_kernel_google_msm-4.14
+  kernel_branch: lineage-21
+  device: crosshatch
   clang_version: r487747c
   defconfig: |
-    dipper_defconfig
+    sdm845-perf_defconfig
   kernel_patch: |
     support-umount-modules-kernel.patch
   kernelsu_patch: |
