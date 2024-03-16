@@ -6,7 +6,7 @@ env:
   device: crosshatch
   clang_version: r487747c
   defconfig: |
-    sdm845-perf_defconfig
+    sdm845_defconfig
   kernel_patch: |
     support-umount-modules-kernel.patch
   kernelsu_patch: |
