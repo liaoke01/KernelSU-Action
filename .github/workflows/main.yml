@@ -68,6 +68,7 @@ jobs:
           sudo apt install -y \
               binutils-arm-linux-gnueabi \
               binutils-aarch64-linux-gnu
+              apt-get install g++-aarch64-linux-gnu
 
       - name: Checkout kernel source
         uses: actions/checkout@v4
